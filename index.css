@@ -1,0 +1,95 @@
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.nav-sandwich {
+  display: flex;
+  padding-left: 8px;
+  padding-bottom: 8px;
+}
+
+.pallete {
+  font-family: Roboto;
+  font-style: normal;
+  padding-top: 9px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.87);
+
+}
+
+.share {
+  padding-right: 24px;
+  width: 4px;
+  height: 16px;
+  padding-top: 12px;
+}
+#canvas {
+  margin-right: 100px;
+  width: 512px;
+  height: 512px;
+  border: 2px solid grey;
+}
+
+.painter {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 79px;
+  padding-left: 29px;
+}
+
+.power-tools, .color {
+  width: 228px;
+}
+
+.color {
+  margin-top: 92px;
+}
+
+.power-tools__block_1 {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.power-tools__block_2 {
+  margin-top: 1px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.power-tools__block__elem {
+  padding: 12px 18px;
+  display: flex;
+}
+
+.icon {
+  width: 20px;
+  height: 18px;
+}
+
+.icon-name {
+  margin-left: 30px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.541327);
+}
+
+.paint {
+  display: flex;
+}
+
+.paint__button {
+  width: 150px;
+  padding-right: 60px;
+}
+
+.paint__button__button {
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  background: grey;
+  color: white;
+}
